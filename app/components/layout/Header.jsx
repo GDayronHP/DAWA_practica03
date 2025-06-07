@@ -16,12 +16,6 @@ export default function Header() {
           </div>
           
           <div className="flex items-center space-x-4">
-            <div className="text-sm text-gray-700">
-              <span className="font-medium">{user?.nombre}</span>
-              <span className="ml-2 px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
-                {ROLE_NAMES[user?.role]}
-              </span>
-            </div>
             
             <button
               onClick={logout}
